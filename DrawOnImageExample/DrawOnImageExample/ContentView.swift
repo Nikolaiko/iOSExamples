@@ -18,7 +18,7 @@ struct ContentView: View {
     func draw() {
         let image = UIImage(named: "Overlay1")!
         let textColor = UIColor.white
-        let textFont = UIFont(name: "Helvetica Bold", size: 12)!
+        let textFont = UIFont(name: "Helvetica Bold", size: 60)!
 
         let scale = UIScreen.main.scale
         UIGraphicsBeginImageContextWithOptions(image.size, false, scale)
@@ -29,8 +29,8 @@ struct ContentView: View {
         ] as [NSAttributedString.Key : Any]
         image.draw(in: CGRect(origin: CGPoint.zero, size: image.size))
 
-        let rect = CGRect(origin: CGPoint(x: 700, y: 700), size: image.size)
-        "text".draw(in: rect, withAttributes: textFontAttributes)
+        let rect = CGRect(origin: CGPoint(x: 100, y: 260), size: CGSize(width: image.size.width - 200, height: image.size.height - 500))
+        "And I will strike down upon thee With great vengeance and furious anger Those who attempt to poison and destroy my brothers And you will know my name is the Lord When I lay my vengeance upon thee".draw(in: rect, withAttributes: textFontAttributes)
 
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
