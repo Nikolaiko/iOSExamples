@@ -15,7 +15,6 @@
 		915C79E92753EC07003F9C22 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 915C79E82753EC07003F9C22 /* ApolloWebSocket */; };
 		915C79F92753F6AF003F9C22 /* Countries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 915C79F72753F6AF003F9C22 /* Countries.graphql */; };
 		915C79FB2753F962003F9C22 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 915C79FA2753F962003F9C22 /* schema.json */; };
-		915C79FD2753F9AD003F9C22 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C79FC2753F9AD003F9C22 /* API.swift */; };
 		915C7A0027545545003F9C22 /* AppoloBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C79FF27545545003F9C22 /* AppoloBasic.swift */; };
 		915C7A0327545B89003F9C22 /* GraphQLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C7A0227545B89003F9C22 /* GraphQLViewModel.swift */; };
 		915C7A0627545D5F003F9C22 /* MyCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915C7A0527545D5F003F9C22 /* MyCountry.swift */; };
@@ -25,6 +24,7 @@
 		917A13C8275473FA0071E8B7 /* MyContinent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A13C7275473FA0071E8B7 /* MyContinent.swift */; };
 		917A13CA275474A30071E8B7 /* Countinents.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 917A13C9275474A30071E8B7 /* Countinents.graphql */; };
 		917A13CC275479AB0071E8B7 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A13CB275479AB0071E8B7 /* CountryView.swift */; };
+		917A13CE2754B7740071E8B7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917A13CD2754B7740071E8B7 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,6 @@
 		915C79DE2753EAE2003F9C22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		915C79F72753F6AF003F9C22 /* Countries.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Countries.graphql; sourceTree = "<group>"; };
 		915C79FA2753F962003F9C22 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
-		915C79FC2753F9AD003F9C22 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		915C79FF27545545003F9C22 /* AppoloBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppoloBasic.swift; sourceTree = "<group>"; };
 		915C7A0227545B89003F9C22 /* GraphQLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLViewModel.swift; sourceTree = "<group>"; };
 		915C7A0527545D5F003F9C22 /* MyCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCountry.swift; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		917A13C7275473FA0071E8B7 /* MyContinent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContinent.swift; sourceTree = "<group>"; };
 		917A13C9275474A30071E8B7 /* Countinents.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Countinents.graphql; sourceTree = "<group>"; };
 		917A13CB275479AB0071E8B7 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		917A13CD2754B7740071E8B7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +79,11 @@
 		915C79D62753EAE1003F9C22 /* GraphQLExample */ = {
 			isa = PBXGroup;
 			children = (
+				917A13CD2754B7740071E8B7 /* API.swift */,
 				917A13C2275473920071E8B7 /* Views */,
 				915C7A0427545D52003F9C22 /* Model */,
 				915C7A0127545B75003F9C22 /* ViewModel */,
 				915C79FE2754552E003F9C22 /* Network */,
-				915C79FC2753F9AD003F9C22 /* API.swift */,
 				915C79FA2753F962003F9C22 /* schema.json */,
 				915C79F72753F6AF003F9C22 /* Countries.graphql */,
 				915C79D72753EAE1003F9C22 /* GraphQLExampleApp.swift */,
@@ -245,8 +245,8 @@
 				917A13C8275473FA0071E8B7 /* MyContinent.swift in Sources */,
 				915C79DA2753EAE1003F9C22 /* ContentView.swift in Sources */,
 				915C7A0027545545003F9C22 /* AppoloBasic.swift in Sources */,
-				915C79FD2753F9AD003F9C22 /* API.swift in Sources */,
 				917A13C4275473A80071E8B7 /* CountinentView.swift in Sources */,
+				917A13CE2754B7740071E8B7 /* API.swift in Sources */,
 				917A13CC275479AB0071E8B7 /* CountryView.swift in Sources */,
 				915C79D82753EAE1003F9C22 /* GraphQLExampleApp.swift in Sources */,
 				915C7A0627545D5F003F9C22 /* MyCountry.swift in Sources */,
