@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91CD2FD0285C517B00B1A1F6 /* WeatheriOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD2FCF285C517B00B1A1F6 /* WeatheriOSAppApp.swift */; };
+		91CD2FD2285C517B00B1A1F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD2FD1285C517B00B1A1F6 /* ContentView.swift */; };
+		91CD2FD4285C517B00B1A1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD2FD3285C517B00B1A1F6 /* Assets.xcassets */; };
+		91CD2FD7285C517B00B1A1F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD2FD6285C517B00B1A1F6 /* Preview Assets.xcassets */; };
+		91CD2FE3285C620F00B1A1F6 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD2FE2285C620F00B1A1F6 /* MainScreenViewModel.swift */; };
+		91CD2FE6285C641D00B1A1F6 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD2FE5285C641D00B1A1F6 /* MainScreenView.swift */; };
+		91CD2FEA285C6DBD00B1A1F6 /* SharedConnectivity in Frameworks */ = {isa = PBXBuildFile; productRef = 91CD2FE9285C6DBD00B1A1F6 /* SharedConnectivity */; };
+		91CD2FF9285C942A00B1A1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD2FF8285C942A00B1A1F6 /* Assets.xcassets */; };
+		91CD2FFF285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91CD2FFE285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91CD3004285C942A00B1A1F6 /* WeatheriOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3003285C942A00B1A1F6 /* WeatheriOSAppApp.swift */; };
+		91CD3006285C942A00B1A1F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3005285C942A00B1A1F6 /* ContentView.swift */; };
+		91CD3008285C942A00B1A1F6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3007285C942A00B1A1F6 /* NotificationController.swift */; };
+		91CD300A285C942A00B1A1F6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3009285C942A00B1A1F6 /* NotificationView.swift */; };
+		91CD300C285C942A00B1A1F6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD300B285C942A00B1A1F6 /* ComplicationController.swift */; };
+		91CD300E285C942A00B1A1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD300D285C942A00B1A1F6 /* Assets.xcassets */; };
+		91CD3011285C942A00B1A1F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CD3010285C942A00B1A1F6 /* Preview Assets.xcassets */; };
+		91CD3016285C942A00B1A1F6 /* WheatherWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91CD2FF6285C942900B1A1F6 /* WheatherWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91CD3023285C94C100B1A1F6 /* SharedConnectivity in Frameworks */ = {isa = PBXBuildFile; productRef = 91CD3022285C94C100B1A1F6 /* SharedConnectivity */; };
+		91CD3027285C94F000B1A1F6 /* CommunicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3025285C94F000B1A1F6 /* CommunicationViewModel.swift */; };
+		91CD3028285C94F000B1A1F6 /* CommunicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD3026285C94F000B1A1F6 /* CommunicationView.swift */; };
+		91CD302C285C9C8000B1A1F6 /* GeometryAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CD302B285C9C8000B1A1F6 /* GeometryAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91CD3000285C942A00B1A1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CD2FC4285C517B00B1A1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CD2FFD285C942A00B1A1F6;
+			remoteInfo = "WheatherWatchApp WatchKit Extension";
+		};
+		91CD3014285C942A00B1A1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CD2FC4285C517B00B1A1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CD2FF5285C942900B1A1F6;
+			remoteInfo = WheatherWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91CD3017285C942A00B1A1F6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				91CD3016285C942A00B1A1F6 /* WheatherWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD301A285C942A00B1A1F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				91CD2FFF285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91CD2FCC285C517B00B1A1F6 /* WeatheriOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatheriOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CD2FCF285C517B00B1A1F6 /* WeatheriOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatheriOSAppApp.swift; sourceTree = "<group>"; };
+		91CD2FD1285C517B00B1A1F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91CD2FD3285C517B00B1A1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91CD2FD6285C517B00B1A1F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91CD2FDD285C60C700B1A1F6 /* SharedConnectivity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SharedConnectivity; path = ../SharedConnectivity; sourceTree = "<group>"; };
+		91CD2FE2285C620F00B1A1F6 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		91CD2FE5285C641D00B1A1F6 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		91CD2FE7285C6BAE00B1A1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		91CD2FF6285C942900B1A1F6 /* WheatherWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CD2FF8285C942A00B1A1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91CD2FFE285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WheatherWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CD3003285C942A00B1A1F6 /* WeatheriOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatheriOSAppApp.swift; sourceTree = "<group>"; };
+		91CD3005285C942A00B1A1F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91CD3007285C942A00B1A1F6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		91CD3009285C942A00B1A1F6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		91CD300B285C942A00B1A1F6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		91CD300D285C942A00B1A1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91CD3010285C942A00B1A1F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91CD3012285C942A00B1A1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CD3013285C942A00B1A1F6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		91CD3025285C94F000B1A1F6 /* CommunicationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationViewModel.swift; sourceTree = "<group>"; };
+		91CD3026285C94F000B1A1F6 /* CommunicationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationView.swift; sourceTree = "<group>"; };
+		91CD302B285C9C8000B1A1F6 /* GeometryAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CD2FC9285C517B00B1A1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD2FEA285C6DBD00B1A1F6 /* SharedConnectivity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD2FFB285C942A00B1A1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD3023285C94C100B1A1F6 /* SharedConnectivity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91CD2FC3285C517B00B1A1F6 = {
+			isa = PBXGroup;
+			children = (
+				91CD2FDD285C60C700B1A1F6 /* SharedConnectivity */,
+				91CD2FCE285C517B00B1A1F6 /* WeatheriOSApp */,
+				91CD2FF7285C942900B1A1F6 /* WheatherWatchApp */,
+				91CD3002285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension */,
+				91CD2FCD285C517B00B1A1F6 /* Products */,
+				91CD2FE8285C6DBD00B1A1F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91CD2FCD285C517B00B1A1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CD2FCC285C517B00B1A1F6 /* WeatheriOSApp.app */,
+				91CD2FF6285C942900B1A1F6 /* WheatherWatchApp.app */,
+				91CD2FFE285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91CD2FCE285C517B00B1A1F6 /* WeatheriOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				91CD2FE7285C6BAE00B1A1F6 /* Info.plist */,
+				91CD2FE4285C640B00B1A1F6 /* MainScreen */,
+				91CD2FCF285C517B00B1A1F6 /* WeatheriOSAppApp.swift */,
+				91CD2FD1285C517B00B1A1F6 /* ContentView.swift */,
+				91CD2FD3285C517B00B1A1F6 /* Assets.xcassets */,
+				91CD2FD5285C517B00B1A1F6 /* Preview Content */,
+			);
+			path = WeatheriOSApp;
+			sourceTree = "<group>";
+		};
+		91CD2FD5285C517B00B1A1F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91CD2FD6285C517B00B1A1F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91CD2FE4285C640B00B1A1F6 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				91CD2FE2285C620F00B1A1F6 /* MainScreenViewModel.swift */,
+				91CD2FE5285C641D00B1A1F6 /* MainScreenView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		91CD2FE8285C6DBD00B1A1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CD2FF7285C942900B1A1F6 /* WheatherWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				91CD2FF8285C942A00B1A1F6 /* Assets.xcassets */,
+			);
+			path = WheatherWatchApp;
+			sourceTree = "<group>";
+		};
+		91CD3002285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				91CD302B285C9C8000B1A1F6 /* GeometryAnimation.swift */,
+				91CD3024285C94F000B1A1F6 /* Communication */,
+				91CD3003285C942A00B1A1F6 /* WeatheriOSAppApp.swift */,
+				91CD3005285C942A00B1A1F6 /* ContentView.swift */,
+				91CD3007285C942A00B1A1F6 /* NotificationController.swift */,
+				91CD3009285C942A00B1A1F6 /* NotificationView.swift */,
+				91CD300B285C942A00B1A1F6 /* ComplicationController.swift */,
+				91CD300D285C942A00B1A1F6 /* Assets.xcassets */,
+				91CD3012285C942A00B1A1F6 /* Info.plist */,
+				91CD3013285C942A00B1A1F6 /* PushNotificationPayload.apns */,
+				91CD300F285C942A00B1A1F6 /* Preview Content */,
+			);
+			path = "WheatherWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		91CD300F285C942A00B1A1F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91CD3010285C942A00B1A1F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91CD3024285C94F000B1A1F6 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				91CD3025285C94F000B1A1F6 /* CommunicationViewModel.swift */,
+				91CD3026285C94F000B1A1F6 /* CommunicationView.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CD2FCB285C517B00B1A1F6 /* WeatheriOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CD2FDA285C517B00B1A1F6 /* Build configuration list for PBXNativeTarget "WeatheriOSApp" */;
+			buildPhases = (
+				91CD2FC8285C517B00B1A1F6 /* Sources */,
+				91CD2FC9285C517B00B1A1F6 /* Frameworks */,
+				91CD2FCA285C517B00B1A1F6 /* Resources */,
+				91CD3017285C942A00B1A1F6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CD3015285C942A00B1A1F6 /* PBXTargetDependency */,
+			);
+			name = WeatheriOSApp;
+			packageProductDependencies = (
+				91CD2FE9285C6DBD00B1A1F6 /* SharedConnectivity */,
+			);
+			productName = WeatheriOSApp;
+			productReference = 91CD2FCC285C517B00B1A1F6 /* WeatheriOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CD2FF5285C942900B1A1F6 /* WheatherWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CD301E285C942A00B1A1F6 /* Build configuration list for PBXNativeTarget "WheatherWatchApp" */;
+			buildPhases = (
+				91CD2FF4285C942900B1A1F6 /* Resources */,
+				91CD301A285C942A00B1A1F6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CD3001285C942A00B1A1F6 /* PBXTargetDependency */,
+			);
+			name = WheatherWatchApp;
+			productName = WheatherWatchApp;
+			productReference = 91CD2FF6285C942900B1A1F6 /* WheatherWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		91CD2FFD285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CD301D285C942A00B1A1F6 /* Build configuration list for PBXNativeTarget "WheatherWatchApp WatchKit Extension" */;
+			buildPhases = (
+				91CD2FFA285C942A00B1A1F6 /* Sources */,
+				91CD2FFB285C942A00B1A1F6 /* Frameworks */,
+				91CD2FFC285C942A00B1A1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WheatherWatchApp WatchKit Extension";
+			packageProductDependencies = (
+				91CD3022285C94C100B1A1F6 /* SharedConnectivity */,
+			);
+			productName = "WheatherWatchApp WatchKit Extension";
+			productReference = 91CD2FFE285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CD2FC4285C517B00B1A1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					91CD2FCB285C517B00B1A1F6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					91CD2FF5285C942900B1A1F6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					91CD2FFD285C942A00B1A1F6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91CD2FC7285C517B00B1A1F6 /* Build configuration list for PBXProject "WeatheriOSApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CD2FC3285C517B00B1A1F6;
+			productRefGroup = 91CD2FCD285C517B00B1A1F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CD2FCB285C517B00B1A1F6 /* WeatheriOSApp */,
+				91CD2FF5285C942900B1A1F6 /* WheatherWatchApp */,
+				91CD2FFD285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CD2FCA285C517B00B1A1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD2FD7285C517B00B1A1F6 /* Preview Assets.xcassets in Resources */,
+				91CD2FD4285C517B00B1A1F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD2FF4285C942900B1A1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD2FF9285C942A00B1A1F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD2FFC285C942A00B1A1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD3011285C942A00B1A1F6 /* Preview Assets.xcassets in Resources */,
+				91CD300E285C942A00B1A1F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CD2FC8285C517B00B1A1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD2FD2285C517B00B1A1F6 /* ContentView.swift in Sources */,
+				91CD2FD0285C517B00B1A1F6 /* WeatheriOSAppApp.swift in Sources */,
+				91CD2FE3285C620F00B1A1F6 /* MainScreenViewModel.swift in Sources */,
+				91CD2FE6285C641D00B1A1F6 /* MainScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CD2FFA285C942A00B1A1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CD3028285C94F000B1A1F6 /* CommunicationView.swift in Sources */,
+				91CD3008285C942A00B1A1F6 /* NotificationController.swift in Sources */,
+				91CD3006285C942A00B1A1F6 /* ContentView.swift in Sources */,
+				91CD300C285C942A00B1A1F6 /* ComplicationController.swift in Sources */,
+				91CD302C285C9C8000B1A1F6 /* GeometryAnimation.swift in Sources */,
+				91CD3027285C94F000B1A1F6 /* CommunicationViewModel.swift in Sources */,
+				91CD3004285C942A00B1A1F6 /* WeatheriOSAppApp.swift in Sources */,
+				91CD300A285C942A00B1A1F6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CD3001285C942A00B1A1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CD2FFD285C942A00B1A1F6 /* WheatherWatchApp WatchKit Extension */;
+			targetProxy = 91CD3000285C942A00B1A1F6 /* PBXContainerItemProxy */;
+		};
+		91CD3015285C942A00B1A1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CD2FF5285C942900B1A1F6 /* WheatherWatchApp */;
+			targetProxy = 91CD3014285C942A00B1A1F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91CD2FD8285C517B00B1A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91CD2FD9285C517B00B1A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91CD2FDB285C517B00B1A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatheriOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatheriOSApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need location to request weather for your coordinates";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location to request weather for your coordinates";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91CD2FDC285C517B00B1A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatheriOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeatheriOSApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need location to request weather for your coordinates";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need location to request weather for your coordinates";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91CD3018285C942A00B1A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WheatherWatchApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WheatherWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nikolai.WeatheriOSApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		91CD3019285C942A00B1A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WheatherWatchApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = WheatherWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nikolai.WeatheriOSApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		91CD301B285C942A00B1A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheatherWatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WheatherWatchApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WheatherWatchApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		91CD301C285C942A00B1A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheatherWatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWXN4J2VCP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WheatherWatchApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WheatherWatchApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikolai.WeatheriOSApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CD2FC7285C517B00B1A1F6 /* Build configuration list for PBXProject "WeatheriOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CD2FD8285C517B00B1A1F6 /* Debug */,
+				91CD2FD9285C517B00B1A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CD2FDA285C517B00B1A1F6 /* Build configuration list for PBXNativeTarget "WeatheriOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CD2FDB285C517B00B1A1F6 /* Debug */,
+				91CD2FDC285C517B00B1A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CD301D285C942A00B1A1F6 /* Build configuration list for PBXNativeTarget "WheatherWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CD301B285C942A00B1A1F6 /* Debug */,
+				91CD301C285C942A00B1A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CD301E285C942A00B1A1F6 /* Build configuration list for PBXNativeTarget "WheatherWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CD3018285C942A00B1A1F6 /* Debug */,
+				91CD3019285C942A00B1A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91CD2FE9285C6DBD00B1A1F6 /* SharedConnectivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedConnectivity;
+		};
+		91CD3022285C94C100B1A1F6 /* SharedConnectivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedConnectivity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91CD2FC4285C517B00B1A1F6 /* Project object */;
+}

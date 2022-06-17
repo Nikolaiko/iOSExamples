@@ -1,19 +1,22 @@
 {
   "images" : [
     {
-      "filename" : "IMG_6436.jpg",
+      "filename" : "bg.jpeg",
       "idiom" : "tv",
       "scale" : "1x"
     },
     {
+      "filename" : "bg — копия.jpeg",
       "idiom" : "tv",
       "scale" : "2x"
     },
     {
+      "filename" : "bg-2.jpeg",
       "idiom" : "tv-marketing",
       "scale" : "1x"
     },
     {
+      "filename" : "bg — копия-1.jpeg",
       "idiom" : "tv-marketing",
       "scale" : "2x"
     }
