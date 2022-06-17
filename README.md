@@ -5,3 +5,4 @@
 * [GeometryReaderexample - пример GeometryReader SwiftUI](https://github.com/Nikolaiko/iOSExamples/tree/main/GeometryReaderexample)
 * [ProgressBarExample - пример ProgressBar on iOS 13.0 SwiftUI](https://github.com/Nikolaiko/iOSExamples/tree/main/ProgressBarExample)
 * [tvOS Example](https://github.com/Nikolaiko/iOSExamples/tree/main/TelevisionApp)
+* [watchOS Example - Paired and Independant](https://github.com/Nikolaiko/iOSExamples/tree/main/WatchOSApp)
