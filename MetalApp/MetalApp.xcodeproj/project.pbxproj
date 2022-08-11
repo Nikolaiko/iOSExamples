@@ -14,7 +14,6 @@
 		9181D116286C983500529C94 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D115286C983500529C94 /* MetalView.swift */; };
 		9181D119286C98F700529C94 /* MetalCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D118286C98F700529C94 /* MetalCoordinator.swift */; };
 		9181D11B286C99E300529C94 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D11A286C99E300529C94 /* Renderer.swift */; };
-		9181D11E286C9B4900529C94 /* Renderer+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D11D286C9B4900529C94 /* Renderer+Delegate.swift */; };
 		9181D122286C9C5800529C94 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D120286C9C5800529C94 /* Quaternion.swift */; };
 		9181D123286C9C5800529C94 /* Uniforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9181D121286C9C5800529C94 /* Uniforms.swift */; };
 		9181D128286DE16900529C94 /* 9935-v1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9181D125286DE16900529C94 /* 9935-v1.jpg */; };
@@ -33,7 +32,6 @@
 		9181D115286C983500529C94 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		9181D118286C98F700529C94 /* MetalCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCoordinator.swift; sourceTree = "<group>"; };
 		9181D11A286C99E300529C94 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		9181D11D286C9B4900529C94 /* Renderer+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Renderer+Delegate.swift"; sourceTree = "<group>"; };
 		9181D120286C9C5800529C94 /* Quaternion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
 		9181D121286C9C5800529C94 /* Uniforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uniforms.swift; sourceTree = "<group>"; };
 		9181D125286DE16900529C94 /* 9935-v1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9935-v1.jpg"; sourceTree = "<group>"; };
@@ -76,9 +74,7 @@
 				9181D12B286DE91200529C94 /* Shaders */,
 				9181D124286DE16900529C94 /* Resource */,
 				9181D11F286C9C5800529C94 /* MetalLinearAlgebra */,
-				9181D11C286C9B2E00529C94 /* Extensions */,
 				9181D117286C98EA00529C94 /* Common */,
-				9181D114286C981300529C94 /* TeaPodView */,
 				9181D106286C953E00529C94 /* MetalAppApp.swift */,
 				9181D108286C953E00529C94 /* ContentView.swift */,
 				9181D10A286C954100529C94 /* Assets.xcassets */,
@@ -95,13 +91,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9181D114286C981300529C94 /* TeaPodView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TeaPodView;
-			sourceTree = "<group>";
-		};
 		9181D117286C98EA00529C94 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,14 +99,6 @@
 				9181D11A286C99E300529C94 /* Renderer.swift */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		9181D11C286C9B2E00529C94 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9181D11D286C9B4900529C94 /* Renderer+Delegate.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9181D11F286C9C5800529C94 /* MetalLinearAlgebra */ = {
@@ -222,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9181D119286C98F700529C94 /* MetalCoordinator.swift in Sources */,
-				9181D11E286C9B4900529C94 /* Renderer+Delegate.swift in Sources */,
 				9181D116286C983500529C94 /* MetalView.swift in Sources */,
 				9181D109286C953E00529C94 /* ContentView.swift in Sources */,
 				9181D123286C9C5800529C94 /* Uniforms.swift in Sources */,

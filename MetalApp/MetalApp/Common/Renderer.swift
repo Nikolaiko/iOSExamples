@@ -107,7 +107,7 @@ final class Renderer: NSObject {
 
         // Update Camera
         var viewMatrix = float4x4(translationBy: SIMD3<Float>(0,-0.5,-1.5)) // View Point
-        //viewMatrix = float4x4(rotationAbout: SIMD3<Float>(0, 0, -1), by: angle/4) // Camera Rotation
+
         let modelViewMatrix = viewMatrix * modelMatrix
         let aspectRatio = Float(mtkView.frame.size.width / mtkView.frame.size.height)
         let projectionMatrix = float4x4(perspectiveProjectionFov: (Float.pi/18)*8, aspectRatio: aspectRatio, nearZ: 0.01, farZ: 200)
