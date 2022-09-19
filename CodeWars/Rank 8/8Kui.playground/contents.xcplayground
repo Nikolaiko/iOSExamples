@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Beginner Series #2 Clock'/>
+        <page name='Convert a Number to a String!'/>
+        <page name='Is n divisible by x and y?'/>
+        <page name='To square(root) or not to square(root)'/>
+        <page name='Grasshopper - Grade book'/>
+    </pages>
+</playground>
