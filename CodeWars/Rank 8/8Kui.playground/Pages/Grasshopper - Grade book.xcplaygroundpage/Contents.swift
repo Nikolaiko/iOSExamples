@@ -14,6 +14,9 @@ import Foundation
  */
 
 func getGrade(_ s1: Int, _ s2: Int, _ s3: Int) -> String {
+    let dd: [Int] = []
+
+    
     let score = (s1 + s2 + s3) / 3
     if score >= 90 {
         return "A"
