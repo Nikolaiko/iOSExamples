@@ -1,0 +1,60 @@
+query FinadAppUser($loginName: String!) {
+  user(login: $loginName) {
+    id
+    name
+    login
+    bio
+    avatarUrl
+    followers {
+      totalCount
+    }
+    following {
+      totalCount
+    }
+    repositories {
+      totalCount      
+    }
+    starredRepositories {
+      totalCount
+    }
+  }
+}
+
+query GetStarredRepositories($loginName: String!, $count: Int!) {
+  user(login: $loginName) {    
+    starredRepositories(first: $count) {
+      totalCount
+      pageInfo {
+        hasNextPage
+      }
+      nodes {
+        id
+        name
+      }
+    }
+  }
+}
+
+query FindRepositories($query: String!) {
+  search(first: 15, type: REPOSITORY, query: $query) {
+    nodes {
+      ... on Repository {
+        id
+        name
+        stargazerCount
+      }
+    }
+  }
+}
+
+mutation AddStar($repoId: ID!) {
+  addStar(input: { starrableId: $repoId }) {
+    clientMutationId
+  }
+}
+
+mutation RemoveStar($repoId: ID!) {
+  removeStar(input: { starrableId: $repoId }) {
+    clientMutationId
+  }
+}
