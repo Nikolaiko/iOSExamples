@@ -61,7 +61,7 @@ class MainScreenViewModel: ObservableObject, StreamManagerDelegate {
         currentNameIndex = 0
 
         timer?.invalidate()
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { currentTimer in
+        timer = Timer.scheduledTimer(withTimeInterval: 3, repeats: true, block: { currentTimer in
             self.bidirectionalManager?.send(message: self.bidirectionalNames[self.currentNameIndex])
             self.currentNameIndex += 1
 

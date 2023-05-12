@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='findNumbers'/>
+        <page name='findMaxConsecutiveOnes'/>
+        <page name='sortedSquares'/>
+        <page name='duplicateZeros'/>
+        <page name='mergeArrays'/>
+        <page name='removeElement'/>
+        <page name='removeDuplicates'/>
+        <page name='checkIfExist'/>
+        <page name='validMountainArray'/>
+        <page name='moveZeroes'/>
+        <page name='replaceElements'/>
+        <page name='sortArrayByParity'/>
+        <page name='heightChecker'/>
+        <page name='thirdMax'/>
+        <page name='findDisappearedNumbers'/>
+    </pages>
+</playground>

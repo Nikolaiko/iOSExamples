@@ -10,7 +10,6 @@ import GRPC
 
 class ClientStreamManager {
     var delegate: StreamManagerDelegate?
-
     private let stream: ClientStreamingCall<Greeter_HelloRequest, Greeter_HelloResponse>
 
     init(
