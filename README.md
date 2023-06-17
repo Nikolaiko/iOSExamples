@@ -7,3 +7,4 @@
 * [tvOS Example](https://github.com/Nikolaiko/iOSExamples/tree/main/TelevisionApp)
 * [watchOS Example - Paired and Independant](https://github.com/Nikolaiko/iOSExamples/tree/main/WatchOSApp)
 * [grpc Example](https://github.com/Nikolaiko/iOSExamples/tree/main/grpcExample). Example of gRPC for iOS client.
+* [Thread safe collection](https://github.com/Nikolaiko/iOSExamples/tree/main/ThreadSafeExample). Example of thread safe operations with collection.
