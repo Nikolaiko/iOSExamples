@@ -9,3 +9,4 @@
 * [grpc Example](https://github.com/Nikolaiko/iOSExamples/tree/main/grpcExample). Example of gRPC for iOS client.
 * [Thread safe collection](https://github.com/Nikolaiko/iOSExamples/tree/main/ThreadSafeWays). Example of thread safe operations with collection.
 * [Animated dropdown](https://github.com/Nikolaiko/iOSExamples/tree/main/AnimatedDropDown). Animated dropdown example.
+* [Vapor gRPC](https://github.com/Nikolaiko/iOSExamples/tree/main/VaporGRPCExample). gRPC Server on Swift Example.
