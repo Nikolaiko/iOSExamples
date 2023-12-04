@@ -20,8 +20,8 @@ struct ContentView: View {
                 selected: $selected,
                 content: items,
                 activeTint: .primary.opacity(0.1),
-                inActiveTint: .white.opacity(0.05),
-                dynamic: true
+                inActiveTint: .white.opacity(1.0),
+                dynamic: false
             )
             .frame(width: 140)
             Text("Another Item")
