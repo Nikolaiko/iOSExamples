@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,10 @@
 		91A822822B2205840051960C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A822812B2205840051960C /* ViewModel.swift */; };
 		91EE2E252BAAE5C6001E6196 /* RickyLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE2E242BAAE5C6001E6196 /* RickyLocations.swift */; };
 		91EE2E272BAAE63D001E6196 /* OpenTabIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE2E262BAAE63D001E6196 /* OpenTabIntent.swift */; };
+		9863BFCE2BAB18C100827210 /* RickyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863BFCD2BAB18C100827210 /* RickyCharacter.swift */; };
+		9863BFD02BAB1A0400827210 /* RickyCharacterQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863BFCF2BAB1A0400827210 /* RickyCharacterQuery.swift */; };
+		9863BFD32BAB1AC000827210 /* OpenAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 9863BFD22BAB1AC000827210 /* OpenAPIClient */; };
+		9863BFD52BAB1D9D00827210 /* DisplayCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863BFD42BAB1D9D00827210 /* DisplayCharacter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,9 @@
 		91A822812B2205840051960C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		91EE2E242BAAE5C6001E6196 /* RickyLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyLocations.swift; sourceTree = "<group>"; };
 		91EE2E262BAAE63D001E6196 /* OpenTabIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenTabIntent.swift; sourceTree = "<group>"; };
+		9863BFCD2BAB18C100827210 /* RickyCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyCharacter.swift; sourceTree = "<group>"; };
+		9863BFCF2BAB1A0400827210 /* RickyCharacterQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyCharacterQuery.swift; sourceTree = "<group>"; };
+		9863BFD42BAB1D9D00827210 /* DisplayCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCharacter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9863BFD32BAB1AC000827210 /* OpenAPIClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				91A822762B21FE880051960C /* AppTabs.swift */,
+				9863BFCD2BAB18C100827210 /* RickyCharacter.swift */,
+				9863BFCF2BAB1A0400827210 /* RickyCharacterQuery.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,6 +132,7 @@
 				91A8227C2B22008E0051960C /* SimpleIntent.swift */,
 				91A8227E2B2203630051960C /* RickyIntentProvider.swift */,
 				91EE2E262BAAE63D001E6196 /* OpenTabIntent.swift */,
+				9863BFD42BAB1D9D00827210 /* DisplayCharacter.swift */,
 			);
 			path = Intents;
 			sourceTree = "<group>";
@@ -150,6 +161,9 @@
 			dependencies = (
 			);
 			name = AppIntentsStartup;
+			packageProductDependencies = (
+				9863BFD22BAB1AC000827210 /* OpenAPIClient */,
+			);
 			productName = AppIntentsStartup;
 			productReference = 91A8225F2B21FD7E0051960C /* AppIntentsStartup.app */;
 			productType = "com.apple.product-type.application";
@@ -178,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 91A822562B21FD7E0051960C;
+			packageReferences = (
+				9863BFD12BAB1AC000827210 /* XCLocalSwiftPackageReference "Modules/Network" */,
+			);
 			productRefGroup = 91A822602B21FD7E0051960C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9863BFD02BAB1A0400827210 /* RickyCharacterQuery.swift in Sources */,
 				91A822742B21FE520051960C /* RickyEpisodes.swift in Sources */,
 				91A822822B2205840051960C /* ViewModel.swift in Sources */,
 				91A822652B21FD7E0051960C /* ContentView.swift in Sources */,
+				9863BFD52BAB1D9D00827210 /* DisplayCharacter.swift in Sources */,
 				91EE2E272BAAE63D001E6196 /* OpenTabIntent.swift in Sources */,
 				91A822772B21FE880051960C /* AppTabs.swift in Sources */,
 				91A8227F2B2203630051960C /* RickyIntentProvider.swift in Sources */,
@@ -214,6 +233,7 @@
 				91A8227A2B21FF4E0051960C /* Router.swift in Sources */,
 				91EE2E252BAAE5C6001E6196 /* RickyLocations.swift in Sources */,
 				91A8227D2B22008E0051960C /* SimpleIntent.swift in Sources */,
+				9863BFCE2BAB18C100827210 /* RickyCharacter.swift in Sources */,
 				91A822722B21FE3B0051960C /* RickyCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +438,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		9863BFD12BAB1AC000827210 /* XCLocalSwiftPackageReference "Modules/Network" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Network;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9863BFD22BAB1AC000827210 /* OpenAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OpenAPIClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91A822572B21FD7E0051960C /* Project object */;
 }
