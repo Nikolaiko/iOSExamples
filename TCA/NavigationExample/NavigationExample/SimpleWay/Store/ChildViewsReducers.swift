@@ -26,7 +26,7 @@ struct FirstViewReducer {
 }
 
 @Reducer
-struct SceondViewReducer {
+struct SecondViewReducer {
 
     @ObservableState
     struct State {

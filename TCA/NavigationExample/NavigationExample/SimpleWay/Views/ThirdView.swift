@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct ThirdView: View {
+    let store: StoreOf<ThirdViewReducer>
+
     var body: some View {
-        Text("Third View")
+        Text(store.thirdScreenValue)
     }
 }

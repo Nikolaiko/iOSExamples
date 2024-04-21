@@ -9,7 +9,9 @@ import SwiftUI
 import ComposableArchitecture
 
 struct SecondView: View {
-    var body: some View {        
-        Text("Second View")
+    let store: StoreOf<SecondViewReducer>
+    
+    var body: some View {
+        Text(store.secondScreenValue)
     }
 }

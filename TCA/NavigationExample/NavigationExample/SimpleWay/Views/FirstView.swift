@@ -6,9 +6,12 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct FirstView: View {
+    let store: StoreOf<FirstViewReducer>
+
     var body: some View {
-        Text("First view")
+        Text(store.firstScreenValue)
     }
 }

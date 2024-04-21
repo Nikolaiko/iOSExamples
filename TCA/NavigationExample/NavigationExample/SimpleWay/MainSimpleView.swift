@@ -15,11 +15,15 @@ struct MainSimpleView: View {
         VStack {
             switch store.selectedScreen {
             case .first:
-                FirstView()
+                FirstView(store: Store(initialState: FirstViewReducer.State(), reducer: {
+                    FirstViewReducer()
+                }))
             case .second:
-                SecondView()
+                SecondView(store: Store(initialState: SecondViewReducer.State(), reducer: {
+                    SecondViewReducer()
+                }))
             case .third:
-                ThirdView()
+                ThirdView(store: Store(initialState: ThirdViewReducer.State(), reducer: { ThirdViewReducer() }))
             }
             Button(action: {
                 store.send(.setScreen(.second))
