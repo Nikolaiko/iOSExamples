@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct SecondView: View {
-    var body: some View {
+    var body: some View {        
         Text("Second View")
     }
 }

@@ -6,9 +6,27 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct MainSimpleView: View {
+    let store: StoreOf<SimpleWayReducer>
+
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            switch store.selectedScreen {
+            case .first:
+                FirstView()
+            case .second:
+                SecondView()
+            case .third:
+                ThirdView()
+            }
+            Button(action: {
+                store.send(.setScreen(.second))
+            }, label: {
+                Text("Button")
+            })
+        }
+
     }
 }

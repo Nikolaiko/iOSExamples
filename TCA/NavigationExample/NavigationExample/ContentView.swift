@@ -6,19 +6,12 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainSimpleView(store: Store(initialState: SimpleWayReducer.State(), reducer: {
+            SimpleWayReducer()
+        }))
     }
-}
-
-#Preview {
-    ContentView()
 }
