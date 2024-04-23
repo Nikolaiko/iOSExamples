@@ -10,8 +10,13 @@ import ComposableArchitecture
 
 struct ContentView: View {
     var body: some View {
-        MainSimpleView(store: Store(initialState: SimpleWayReducer.State(), reducer: {
-            SimpleWayReducer()
-        }))
+//        MainSimpleView(store: Store(initialState: SimpleWayReducer.State(), reducer: {
+//            SimpleWayReducer()
+//        }))
+
+        NavigationExampleStack(store: Store(initialState: NavigationStoreRootFeature.State(),
+                                            reducer: { NavigationStoreRootFeature() }
+                                           )
+        )
     }
 }

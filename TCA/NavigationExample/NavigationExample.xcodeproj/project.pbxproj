@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9190D9572BD7678400A7C430 /* NavigationStoreRootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D9562BD7678400A7C430 /* NavigationStoreRootFeature.swift */; };
+		9190D9592BD767D100A7C430 /* AddItemFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D9582BD767D100A7C430 /* AddItemFeature.swift */; };
+		9190D95B2BD7684900A7C430 /* DetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D95A2BD7684900A7C430 /* DetailFeature.swift */; };
+		9190D95D2BD7685700A7C430 /* DescriptionFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D95C2BD7685700A7C430 /* DescriptionFeature.swift */; };
+		9190D95F2BD76B1100A7C430 /* NavigationExampleStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D95E2BD76B1100A7C430 /* NavigationExampleStack.swift */; };
+		9190D9622BD76D1F00A7C430 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D9612BD76D1F00A7C430 /* DetailsView.swift */; };
+		9190D9642BD76D6700A7C430 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D9632BD76D6700A7C430 /* FeatureView.swift */; };
+		9190D9662BD76DB100A7C430 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190D9652BD76DB100A7C430 /* DescView.swift */; };
 		91EC32D72BD536F000B6EB1A /* SimpleWayTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC32D62BD536F000B6EB1A /* SimpleWayTypes.swift */; };
 		91EC32D92BD5371B00B6EB1A /* SimpleWayReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC32D82BD5371B00B6EB1A /* SimpleWayReducer.swift */; };
 		91EC32DB2BD5393000B6EB1A /* ChildViewsReducers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC32DA2BD5393000B6EB1A /* ChildViewsReducers.swift */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9190D9562BD7678400A7C430 /* NavigationStoreRootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStoreRootFeature.swift; sourceTree = "<group>"; };
+		9190D9582BD767D100A7C430 /* AddItemFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemFeature.swift; sourceTree = "<group>"; };
+		9190D95A2BD7684900A7C430 /* DetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFeature.swift; sourceTree = "<group>"; };
+		9190D95C2BD7685700A7C430 /* DescriptionFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionFeature.swift; sourceTree = "<group>"; };
+		9190D95E2BD76B1100A7C430 /* NavigationExampleStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExampleStack.swift; sourceTree = "<group>"; };
+		9190D9612BD76D1F00A7C430 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9190D9632BD76D6700A7C430 /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
+		9190D9652BD76DB100A7C430 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		91EC32D62BD536F000B6EB1A /* SimpleWayTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWayTypes.swift; sourceTree = "<group>"; };
 		91EC32D82BD5371B00B6EB1A /* SimpleWayReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWayReducer.swift; sourceTree = "<group>"; };
 		91EC32DA2BD5393000B6EB1A /* ChildViewsReducers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewsReducers.swift; sourceTree = "<group>"; };
@@ -48,6 +64,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9190D9542BD7674B00A7C430 /* StackWay */ = {
+			isa = PBXGroup;
+			children = (
+				9190D9602BD76D0C00A7C430 /* Views */,
+				9190D9552BD7676400A7C430 /* Store */,
+			);
+			path = StackWay;
+			sourceTree = "<group>";
+		};
+		9190D9552BD7676400A7C430 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				9190D9562BD7678400A7C430 /* NavigationStoreRootFeature.swift */,
+				9190D9582BD767D100A7C430 /* AddItemFeature.swift */,
+				9190D95A2BD7684900A7C430 /* DetailFeature.swift */,
+				9190D95C2BD7685700A7C430 /* DescriptionFeature.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		9190D9602BD76D0C00A7C430 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9190D9612BD76D1F00A7C430 /* DetailsView.swift */,
+				9190D9632BD76D6700A7C430 /* FeatureView.swift */,
+				9190D9652BD76DB100A7C430 /* DescView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		91EC32D42BD536D400B6EB1A /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +130,13 @@
 		9880C30A2BD19C8D005A7E64 /* NavigationExample */ = {
 			isa = PBXGroup;
 			children = (
+				9190D9542BD7674B00A7C430 /* StackWay */,
 				98BAAE802BD225F5007439B6 /* SimpleWay */,
 				9880C30B2BD19C8D005A7E64 /* NavigationExampleApp.swift */,
 				9880C30D2BD19C8D005A7E64 /* ContentView.swift */,
 				9880C30F2BD19C8E005A7E64 /* Assets.xcassets */,
 				9880C3112BD19C8E005A7E64 /* Preview Content */,
+				9190D95E2BD76B1100A7C430 /* NavigationExampleStack.swift */,
 			);
 			path = NavigationExample;
 			sourceTree = "<group>";
@@ -198,12 +246,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9190D95D2BD7685700A7C430 /* DescriptionFeature.swift in Sources */,
+				9190D9592BD767D100A7C430 /* AddItemFeature.swift in Sources */,
 				9880C30E2BD19C8D005A7E64 /* ContentView.swift in Sources */,
+				9190D9642BD76D6700A7C430 /* FeatureView.swift in Sources */,
+				9190D9662BD76DB100A7C430 /* DescView.swift in Sources */,
 				98BAAE892BD22680007439B6 /* MainSimpleView.swift in Sources */,
 				91EC32D72BD536F000B6EB1A /* SimpleWayTypes.swift in Sources */,
+				9190D95F2BD76B1100A7C430 /* NavigationExampleStack.swift in Sources */,
 				98BAAE872BD22642007439B6 /* ThirdView.swift in Sources */,
+				9190D95B2BD7684900A7C430 /* DetailFeature.swift in Sources */,
 				91EC32DB2BD5393000B6EB1A /* ChildViewsReducers.swift in Sources */,
 				98BAAE832BD2260E007439B6 /* FirstView.swift in Sources */,
+				9190D9572BD7678400A7C430 /* NavigationStoreRootFeature.swift in Sources */,
+				9190D9622BD76D1F00A7C430 /* DetailsView.swift in Sources */,
 				98BAAE852BD22627007439B6 /* SecondView.swift in Sources */,
 				91EC32D92BD5371B00B6EB1A /* SimpleWayReducer.swift in Sources */,
 				9880C30C2BD19C8D005A7E64 /* NavigationExampleApp.swift in Sources */,
