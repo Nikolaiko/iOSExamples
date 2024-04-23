@@ -17,11 +17,19 @@ struct FirstViewReducer {
     }
 
     enum Action {
-
+        case someAction
+        case otherAction
     }
 
     func reduce(into state: inout State, action: Action) -> Effect<Action> {
-        return .none
+        switch action {
+        case .someAction:
+            print("Some Action")
+            return .none
+        case .otherAction:
+            print("Other Action")
+            return .none
+        }
     }
 }
 

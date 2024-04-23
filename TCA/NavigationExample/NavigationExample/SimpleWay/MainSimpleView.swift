@@ -15,9 +15,7 @@ struct MainSimpleView: View {
         VStack {
             switch store.selectedScreen {
             case .first:
-                FirstView(store: Store(initialState: FirstViewReducer.State(), reducer: {
-                    FirstViewReducer()
-                }))
+                FirstView(store: store.scope(state: \.firstScreenState, action: \.firstAction))                
             case .second:
                 SecondView(store: Store(initialState: SecondViewReducer.State(), reducer: {
                     SecondViewReducer()
