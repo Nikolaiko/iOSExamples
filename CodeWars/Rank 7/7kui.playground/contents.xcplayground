@@ -24,5 +24,7 @@
         <page name='Spacify'/>
         <page name='Sum of Minimums!'/>
         <page name='Resistor Color Codes'/>
+        <page name='Fizz Buzz Cuckoo Clock'/>
+        <page name='Linked Lists - Push &amp; BuildOneTwoThree'/>
     </pages>
 </playground>
